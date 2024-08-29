@@ -62,3 +62,7 @@ def update_coverage_store(old_coverage_store: str, new_coverage_store) -> int:
     print(response.text)
 
     return response.status_code
+
+
+if __name__ == '__main__':
+    update_coverage_store('bbbbb', 'b')
